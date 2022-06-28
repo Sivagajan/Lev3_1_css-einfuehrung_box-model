@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,200&family=Montserrat:wght@100&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h2{
+    color: crimson;
+    font-family: Montserrat;
+}
+
+main>p{
+    color: crimson;
+    font-family: literata;
+    padding: 20px 0px;
+}
+
+img{
+    width: 100px;
+    border: 10px solid green;
+    border-radius: 50px;
+    margin: 10px 0px;
+}
+
+div>p{
+    background-color: #999;
+    width: 300px;
+}
+
+ul, ol{
+    background-color: #999;
+    width: 300px;
+    padding: 10px 40px;
+}
+
+
+div>p:first-child{
+    color: green;
+}
+
